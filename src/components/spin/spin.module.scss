@@ -1,0 +1,43 @@
+.spin {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: load 1s infinite linear;
+
+
+    .innerSpin {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #fff;
+        border-bottom: none;
+        border-right: none;
+        border-radius: 100%;
+        animation: loadInverse 0.5s infinite linear;
+    }
+}
+
+@keyframes load {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loadInverse {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

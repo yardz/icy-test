@@ -1,0 +1,22 @@
+.TrendingCollectionListItem {
+    border: 2px solid #fff;
+    width: 300px;
+    margin-bottom: 20px;
+
+    h2 {
+        border-bottom: 1px solid #fff;
+        text-align: center;
+    }
+
+    span {
+        display: block;
+        padding: 0px 5px;
+        margin-bottom: 10px;
+    }
+
+    .address {
+        font-size: 11px;
+        text-align: center;
+        margin: 15px 0px;
+    }
+}
